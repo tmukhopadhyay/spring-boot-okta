@@ -1,0 +1,12 @@
+# Configuration for ftl templates
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+
+# Configuration for okta
+okta:
+  oauth2:
+    issuer: <<issuer url>>
+    clientId: <<clientId>>
+    clientSecret: <<clientSecret>>
